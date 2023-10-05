@@ -44,3 +44,7 @@ chmod +x install_files.sh  授予脚本可执行权限
 /usr/bin/g++ -fdiagnostics-color=always -g /workspaces/lattice/pbkzlib-202205/1code.cpp -o /workspaces/lattice/pbkzlib-202205/1code -I. -I../boost_1_75_0 -lgmp -lmpfr -lgsl -lntl -fopenmp
 ./code1
 
+
+# to do
+
+progressive bkz的原理、代码；58dim，random seed，输出appro_factor and time，basis
