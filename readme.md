@@ -27,6 +27,7 @@ https://www2.nict.go.jp/security/pbkzcode/install.html
 unzip unzip pbkzlib-202205.zip -d pbkzlib-202205
 
 特别注意，
+
 ### 
 
 Please ensure that you have already installed the following libraries. GCC, NTL, boost, GMP, GSL, and MPFR.
@@ -45,6 +46,35 @@ chmod +x install_files.sh  授予脚本可执行权限
 ./code1
 
 
-# to do
 
-progressive bkz的原理、代码；58dim，random seed，输出appro_factor and time，basis
+## g6k
+
+git clone https://github.com/fplll/g6k.git
+
+1. python -m pip install virtualenv
+
+2. 如果你的系统包管理器中没有较新版本的 MPFR，你可以尝试手动下载和安装较新版本的 MPFR。
+sudo apt-get update
+sudo apt-get install libmpfr-dev
+
+3.  
+./bootstrap.sh
+source ./activate （deactivate
+
+4. 
+python code1.py  (不用直接点击run
+
+
+other qs：
+1. 不能debug。调整编译器为./fpylll-env/bin/python
+2. python文件pylint报错，但能编译。https://blog.csdn.net/zj010206/article/details/92806700
+
+
+
+
+### g6k 用法
+
+    A, _ = load_svpchallenge_and_randomize(n, s=challenge_seed, seed=seed)
+   A, _ = load_matrix_file(load_matrix)
+
+
