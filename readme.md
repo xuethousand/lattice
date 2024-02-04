@@ -49,7 +49,14 @@ chmod +x install_files.sh  授予脚本可执行权限
 
 ## g6k
 
-git clone https://github.com/fplll/g6k.git
+千万不要！！git clone https://github.com/fplll/g6k.git 从源代码来编译。
+当你在一个 Git 仓库中克隆另一个仓库时，克隆的仓库会成为一个独立的 Git 仓库，它有自己的历史记录和提交。这就是为什么你无法将 g6k 文件夹提交到你的原始仓库的原因。
+
+如果你想要将 g6k 的代码作为你的原始仓库的一部分进行版本控制，copy一下就行。
+
+
+
+
 
 1. python -m pip install virtualenv
 
@@ -78,3 +85,4 @@ other qs：
    A, _ = load_matrix_file(load_matrix)
 
 
+dsds
