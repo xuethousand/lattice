@@ -93,7 +93,7 @@ cdef class Siever(object):
         if not params.lift_unitary_only:
             raise NotImplementedError("`unitary_only=False` is not implemented yet.")
 
-        self.M = M
+        self.M = M # GSO object
 
         if seed is None:
             # access FPLLL's rng
@@ -159,7 +159,7 @@ cdef class Siever(object):
             warnings.warn("Attribute '%s' unknown"%k)
         self._params = params
         self._core.set_params(self._params._core)
-        self._params.set_read_only()
+        self._params.set_read_only() #只读
 
     temp_params = temp_params
 

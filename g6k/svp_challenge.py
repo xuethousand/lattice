@@ -77,10 +77,11 @@ def asvp_kernel(arg0, params=None, seed=None):
 
     gh = gaussian_heuristic([g6k.M.get_r(i, i) for i in range(n)])
     goal_r0 = (1.05 ** 2) * gh
+    #goal_r0 = (0.95 ** 2) * gh
     if verbose:
         print(
             (
-                "gh = %f, goal_r0/gh = %f, r0/gh = %f"
+                "gh**2 = %f, (goal_r0/gh)**2 = %f, (r0/gh)**2 = %f"
                 % (gh, goal_r0 / gh, sum([x * x for x in A[0]]) / gh)
             )
         )

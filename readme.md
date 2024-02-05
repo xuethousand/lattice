@@ -56,8 +56,6 @@ chmod +x install_files.sh  授予脚本可执行权限
 
 
 
-
-
 1. python -m pip install virtualenv
 
 2. 如果你的系统包管理器中没有较新版本的 MPFR，你可以尝试手动下载和安装较新版本的 MPFR。
@@ -81,7 +79,97 @@ other qs：
 
 ### g6k 用法
 
-    A, _ = load_svpchallenge_and_randomize(n, s=challenge_seed, seed=seed)
-   A, _ = load_matrix_file(load_matrix)
+            seed = IntegerMatrix.random(1, "uniform", bits=32)[0, 0] #access fplll's rng. 生成一个随机数
+
+
+```python
+# class siever 
+from fpylll import IntegerMatrix, GSO
+from g6k import Siever
+
+#从integerMatrix生成一个siever对象
+A = IntegerMatrix.random(50, "qary", k=25, bits=10)
+siever = Siever(A, seed=0x1337) #A is a matGSO object or an integerMatrix.若是integerMatrix，在siever中会自动转换为matGSO，float_type由matrix的A.nrows决定
+
+#从matGSO生成一个siever对象
+_ = Siever(GSO.Mat(A)) #error: Siever requires UinvT enabled
+M = GSO.Mat(A, U=IntegerMatrix.identity(50), UinvT=IntegerMatrix.identity(50))
+siever = Siever(M)
+
+
+# siever.params
+siever.params 
+siever.params = siever.params.new(reserved_n=10) # create a new copy of the parameters with reserved_n set to 10
+siever.params.attr1 = 10 #报错
+
+
+# siever.update_gso. 
+siever.update_gso(0, 50) #Update the Gram-Schmidt vectors (from the left bound 0 up to the right bound 50
+# siever.M.update_gso(0, 50) !禁止这么做！
+
+
+#初始化sieving context and lifting context
+siever.initialize_local(0, 5, 10) #ll, l, r
+siever.ll  
+siever.l
+siever.r
+siever.n # r-l, sieving dimension
+siever()
+len(siever)
+db = list(siever.itervalues()) #all entries in the database (in the order determined by the compressed database). We get coordinates wrt the basis B
+
+
+# property
+siever.max_sieving_dim #You can simply change the ``MAX_SIEVING_DIM`` macro in siever.h and then recompile.
+siever.full_n #Full dimension of the lattice.
+len(siever) #the number of vectors in the (compressed) database.
+
+
+
+#SieverParams class
+known_attributes = [
+        # C++
+        "reserved_n",
+        "reserved_db_size",
+        "threads",
+        "sample_by_sums",
+        "otf_lift",
+        "lift_radius",
+        "lift_unitary_only",
+        "saturation_ratio",
+        "saturation_radius",
+        "triplesieve_saturation_radius",
+        "bgj1_improvement_db_ratio",
+        "bgj1_resort_ratio",
+        "bgj1_transaction_bulk_size",
+        "simhash_codes_basedir",
+        "bdgl_improvement_db_ratio",
+        # Python
+        "db_size_base",
+        "db_size_factor",
+        "bgj1_bucket_size_expo",
+        "bgj1_bucket_size_factor",
+        "bdgl_bucket_size_factor",
+        "bdgl_blocks",
+        "bdgl_multi_hash",
+        "bdgl_min_bucket_size",
+        "default_sieve",
+        "gauss_crossover",
+        "dual_mode"
+    ]
+
+from g6k import SieverParams
+_ = SieverParams() 
+print(_.get("attr1")) #若attr1存在，返回其值；否则返回None
+print(_.get("attr1", 42)) #若attr1存在，返回其值；否则返回42
+_.pop("attr1") #和get类似，但是会删除attr1
+_.attr1  #若attr1存在，返回其值；否则返回报错
+_.attr1 = 42 #设置attr1的值
+_['attr'] #支持中括号访问
+_['attr'] = 42 #支持中括号赋值
+_.dict() #返回所有值
+_.dict(True)  #只返回和默认结果不同的值
+
+```
 
 

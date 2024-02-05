@@ -1,0 +1,10 @@
+DEBUG:        root:2024/02/04 10:15:52 UTC: {"('svp-exact', 58)": {"cputime": 0.838090,  "walltime": 1.119801,  "r_0":   2^22.0,  "r_0/gh": 1.054497,  "rhf": 1.011841,  "/": -0.05836,  "hv/hv": 1.536746,  "r": '...',  "flast":       13}}
+DEBUG:        root:2024/02/04 10:15:52 UTC: {"('svp-exact', 58)": {"cputime": 1.021634,  "walltime": 1.268932,  "r_0":   2^22.0,  "r_0/gh": 1.071049,  "rhf": 1.011977,  "/": -0.05988,  "hv/hv": 1.553831,  "r": '...',  "flast":       11}}
+DEBUG:        root:2024/02/04 10:15:52 UTC: {"('svp-exact', 58)": {"cputime": 0.118210,  "walltime": 0.119095,  "r_0":   2^22.0,  "r_0/gh": 1.051366,  "rhf": 1.011815,  "/": -0.06776,  "hv/hv": 1.660992,  "r": '...',  "flast":       17}}
+ INFO:        root:2024/02/04 10:15:52 UTC:                                                    :: n: 58, cputime  0.6593s, walltime:  0.8359s, flast: 13.67, |db|: 2^10.07
+DEBUG:  matplotlib:2024/02/04 10:15:52 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/04 10:15:52 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/04 10:15:52 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/04 10:15:52 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/04 10:15:52 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/04 10:15:52 UTC: Using fontManager instance from /home/codespace/.cache/matplotlib/fontlist-v330.json

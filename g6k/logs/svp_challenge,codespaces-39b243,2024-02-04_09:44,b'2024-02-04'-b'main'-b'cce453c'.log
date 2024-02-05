@@ -1,0 +1,12 @@
+ INFO:        root:2024/02/04 09:44:05 UTC: Did not find 'svpchallenge/svpchallenge-dim-100-seed-00.txt', generating ...
+ INFO:        asvp:2024/02/04 09:45:28 UTC: sol 100, (378, -125, 114, -311, 214, 34, -372, -127, 202, -268, 186, 35, -71, 218, -186, -297, 216, 306, -94, -77, -12, 336, 211, 71, 184, 469, -16, 539, -129, -565, -112, -465, 67, -439, 300, -81, -479, 339, 10, -151, 39, -71, -312, 36, 270, 398, -383, -186, 88, 85, -484, 320, -221, 85, -55, -234, -120, -50, 552, 146, 389, 14, -119, 54, 122, 429, 205, -188, 230, -353, -360, -142, -88, 216, -262, 326, 256, -155, -245, 317, 11, -611, 8, 109, -59, -151, -153, 95, -531, 121, -243, -280, -36, 117, -174, -804, -136, 78, 201, 93)
+ INFO:        asvp:2024/02/04 09:45:28 UTC: norm 2665.1 ,hf 1.04944
+DEBUG:        root:2024/02/04 09:45:28 UTC: {"('svp-challenge', 100)": {"cputime":  136.522,  "walltime":   80.149,  "r_0":   2^22.8,  "r_0/gh": 1.101321,  "rhf": 1.009653,  "/": -0.05444,  "hv/hv": 1.997108,  "r": '...',  "flast":       24}}
+ INFO:        root:2024/02/04 09:45:28 UTC: 'threads': 4,                                      :: n: 100, cputime 136.5219s, walltime: 80.1493s, flast: 24.00, |db|: 2^17.03
+DEBUG:  matplotlib:2024/02/04 09:45:29 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/04 09:45:29 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/04 09:45:29 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/04 09:45:29 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/04 09:45:30 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/04 09:45:30 UTC: font search path [PosixPath('/workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf'), PosixPath('/workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/afm'), PosixPath('/workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts')]
+ INFO:matplotlib.font_manager:2024/02/04 09:45:31 UTC: generated new fontManager
