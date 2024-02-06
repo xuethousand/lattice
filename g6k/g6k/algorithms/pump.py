@@ -29,12 +29,12 @@ from g6k.siever import SaturationError
 import logging
 
 
-def print_pump_state(pump):
+def print_pump_state(pump): #打印pump的状态
     pump.minl = min(pump.g6k.l, pump.minl)
     if pump.phase != "down":
-        print("\r %3d: ↑%3d      " % (pump.r-pump.l, pump.g6k.r-pump.g6k.l), end=' ')
+        print("\r sieving dim(goal) %3d: (now)↑%3d      " % (pump.r-pump.l, pump.g6k.r-pump.g6k.l), end=' ')
     else:
-        print("\r %3d: ↑%3d ↓%3d " % (pump.r-pump.l, pump.r-pump.minl, pump.r-pump.g6k.l), end=' ')
+        print("\r sieving dim(goal) %3d: (now)↑%3d (pump down)↓%3d " % (pump.r-pump.l, pump.r-pump.minl, pump.r-pump.g6k.l), end=' ')
     sys.stdout.flush()
 
 
@@ -118,8 +118,8 @@ def pump(g6k, tracer, kappa, blocksize, dim4free, down_sieve=False,             
     :param verbose: print pump steps on the standard output.
 
     """
-    pump.r = kappa+blocksize
-    pump.l = kappa+dim4free  # noqa
+    pump.r = kappa+blocksize 
+    pump.l = kappa+dim4free  # noqa，最终pump要达到的sieving left context
 
     g6k.shrink_db(0)
     g6k.lll(kappa, pump.r)
@@ -128,7 +128,7 @@ def pump(g6k, tracer, kappa, blocksize, dim4free, down_sieve=False,             
     pump.sat_factor = 1.
     pump.up_time_start = time.time()
     pump.insert_left_bound = kappa
-    pump.minl = g6k.l
+    pump.minl = g6k.l   #当前的sieving left context，should be d
 
     for key in ('kappa', 'down_sieve', 'goal_r0', 'g6k', 'tracer',
                 'max_up_time', 'saturation_error', 'verbose', 'prefer_left_insert'):

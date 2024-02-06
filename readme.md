@@ -173,12 +173,17 @@ _.dict(True)  #只返回和默认结果不同的值
 ```
 
 
-import pickle
-import pprint
 
-with open('svp-challenge-50-0-2-1.sobj', 'rb') as f:
-    data = pickle.load(f)
+```python
+# svp challenge
+python ./svp_challenge.py --help 
+python ./svp_challenge.py 70  #lower bound is 70
+python ./svp_challenge.py 70 --show-defaults #显示默认参数
 
-for k, v in data.items():
-    print(k, v)
-    print("\n")
+#以下参数可以在svp_challenge.py中修改
+load_matrix=None
+verbose = True
+challenge_seed = 0
+workout__dim4free_dec=3
+
+```

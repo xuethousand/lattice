@@ -43,7 +43,7 @@ def workout(g6k, tracer, kappa, blocksize, dim4free_min=0,              # Main p
     :param dim4free_min: Minimal number of dimension for free ``dimension for free'' [Ducas,
         Eurcrypt 2018] (may stop before reaching that if goal_r0)
     :param dim4free_dec: By how much do we decreaseee dim4free at each iteration
-    :param start_n: Dimension of the first pump
+    :param start_n: Dimension of the first pump (sieving context)
     :param goal_r0: an extra hook to always insert at position kappa if this goal length can be met
         by a lift.  Quit when this is reached.
     :param verbose: Print workout steps (with timing and quality) information on the standard
@@ -60,13 +60,13 @@ def workout(g6k, tracer, kappa, blocksize, dim4free_min=0,              # Main p
     fs = list(range(dim4free_min, f_start+1, dim4free_dec))[::-1]
 
     if goal_r0:
-        fs += 9999*[dim4free_min]
+        fs += 9999*[dim4free_min] #若goal_r0不为0，则一直循环最后一个pump
 
     gh = gaussian_heuristic([g6k.M.get_r(i, i) for i in range(kappa, kappa+blocksize)])
     runtimestart = time.time()
 
     if "verbose" not in pump_params:
-        pump_params["verbose"] = verbose
+        pump_params["verbose"] = verbose #若pump_params中没有verbose，默认为false
 
     with tracer.context(("workout", "beta:%d f:%d" % (blocksize, dim4free_min))):
         for f in fs:
@@ -78,15 +78,15 @@ def workout(g6k, tracer, kappa, blocksize, dim4free_min=0,              # Main p
 
             if verbose:
                 gh2 = gaussian_heuristic([g6k.M.get_r(i, i) for i in range(kappa+f, kappa+blocksize)])
-                quality = (gh * (blocksize - f)) / (gh2 * blocksize)
-                print("T:%10.5fs, TT:%10.5fs, q:%10.5f r0/gh:%10.5f" %
+                quality = (gh * (blocksize - f)) / (gh2 * blocksize) #有啥用？
+                print("T:%10.5fs, TT:%10.5fs, quality:%10.5f (r0/gh)**2:%10.5f" %
                       (time.time() - timestart,
                        time.time() - runtimestart, quality, g6k.M.get_r(kappa, kappa) / gh))
 
             if g6k.M.get_r(kappa, kappa) < goal_r0:
                 break
 
-            if save_prefix is not None:
+            if save_prefix is not None: #保存g6k.M.B,实时格基
                 fn = open("%s_%d_%d.mat" % (save_prefix.rstrip(), g6k.M.d - f, g6k.M.d), "w")
                 fn.write(str(g6k.M.B))
                 fn.close()
