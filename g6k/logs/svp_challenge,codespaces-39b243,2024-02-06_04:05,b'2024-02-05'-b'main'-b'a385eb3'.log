@@ -1,0 +1,11 @@
+ INFO:        root:2024/02/06 04:05:24 UTC: Did not find 'svpchallenge/svpchallenge-dim-070-seed-00.txt', generating ...
+ INFO:        asvp:2024/02/06 04:05:25 UTC: sol 70, (-10, -271, -165, 218, -114, -214, 79, 271, 267, 90, -72, -334, 326, -269, 448, -45, 368, 197, 181, -112, 70, -261, -518, 94, -451, -109, -88, 134, 608, -466, 26, -400, -136, 284, -362, 38, 6, 198, 18, -255, -148, 53, -265, 236, 494, 148, 393, 372, 259, -54, 775, 0, 196, 43, -364, -84, -117, -36, 205, 225, -192, 235, 176, 158, 356, -8, 67, -6, -535, 165)
+ INFO:        asvp:2024/02/06 04:05:25 UTC: norm 2240.3 ,hf 1.04400
+DEBUG:        root:2024/02/06 04:05:25 UTC: {"('svp-challenge', 70)": {"cputime": 1.148438,  "walltime": 1.158875,  "r_0":   2^22.3,  "r_0/gh": 1.089928,  "rhf": 1.011305,  "/": -0.06091,  "hv/hv": 1.713761,  "r": '...',  "flast":       18}}
+ INFO:        root:2024/02/06 04:05:25 UTC:                                                    :: n: 70, cputime  1.1484s, walltime:  1.1589s, flast: 18.00, |db|: 2^12.47
+DEBUG:  matplotlib:2024/02/06 04:05:26 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/06 04:05:26 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/06 04:05:26 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/06 04:05:26 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/06 04:05:26 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/06 04:05:26 UTC: Using fontManager instance from /home/codespace/.cache/matplotlib/fontlist-v330.json

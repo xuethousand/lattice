@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python  
+#/usr/bin/env python会在PATH中查找python解释器，并使用找到的第一个解释器(which is /workspaces/lattice/g6k/g6k-env/bin/python)来运行脚本。
+# python ./svp_challenge.py --help
 # -*- coding: utf-8 -*-
 ####
 #
@@ -44,7 +46,7 @@ import six
 from six.moves import range
 
 
-def asvp_kernel(arg0, params=None, seed=None):
+def asvp_kernel(arg0, params=None, seed=None): #arg
     logger = logging.getLogger("asvp")
 
     # Pool.map only supports a single parameter
@@ -88,18 +90,18 @@ def asvp_kernel(arg0, params=None, seed=None):
 
     flast = workout(
         g6k, tracer, 0, n, goal_r0=goal_r0, pump_params=pump_params, **workout_params
-    )
+    ) # pump的详细过程
 
     tracer.exit()
     stat = tracer.trace
     stat.data["flast"] = flast
 
     if verbose:
-        logger.info("sol %d, %s" % (n, A[0]))
+        logger.info("sol %d, %s" % (n, A[0])) #sol,打印asvp:...
 
     norm = sum([x * x for x in A[0]])
     if verbose:
-        logger.info("norm %.1f ,hf %.5f" % (norm ** 0.5, (norm / gh) ** 0.5))
+        logger.info("norm(|sv|) %.1f ,hf(appro_factor) %.5f" % (norm ** 0.5, (norm / gh) ** 0.5))
 
     return tracer.trace
 
@@ -110,6 +112,7 @@ def asvp():
     """
     description = asvp.__doc__
 
+
     args, all_params = parse_args(
         description,
         load_matrix=None,
@@ -117,6 +120,7 @@ def asvp():
         challenge_seed=0,
         workout__dim4free_dec=3,
     )
+
 
     stats = run_all(
         asvp_kernel,

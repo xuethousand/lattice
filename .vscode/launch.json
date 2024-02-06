@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "python": "/workspaces/lattice/g6k/g6k-env/bin/python3.10",
+            "cwd": "/workspaces/lattice/g6k", // 添加这一行
+            "args":[
+                "100",
+                "--threads",
+                "4"
+            ],
+            "env": {"LD_LIBRARY_PATH":"/workspaces/lattice/g6k/g6k-env/lib"}
+        }
+    ]
+}

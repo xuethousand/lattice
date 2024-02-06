@@ -1,0 +1,8 @@
+DEBUG:        root:2024/02/06 03:39:52 UTC: {"('svp-challenge', 100)": {"cputime":  124.048,  "walltime":   72.453,  "r_0":   2^22.8,  "r_0/gh": 1.102133,  "rhf": 1.009657,  "/": -0.05478,  "hv/hv": 1.973989,  "r": '...',  "flast":       24}}
+ INFO:        root:2024/02/06 03:39:52 UTC: 'threads': 4,                                      :: n: 100, cputime 124.0476s, walltime: 72.4531s, flast: 24.00, |db|: 2^16.83
+DEBUG:  matplotlib:2024/02/06 03:39:52 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/06 03:39:52 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/06 03:39:52 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/06 03:39:52 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/06 03:39:53 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/06 03:39:53 UTC: Using fontManager instance from /home/codespace/.cache/matplotlib/fontlist-v330.json

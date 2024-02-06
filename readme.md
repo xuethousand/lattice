@@ -173,3 +173,12 @@ _.dict(True)  #只返回和默认结果不同的值
 ```
 
 
+import pickle
+import pprint
+
+with open('svp-challenge-50-0-2-1.sobj', 'rb') as f:
+    data = pickle.load(f)
+
+for k, v in data.items():
+    print(k, v)
+    print("\n")

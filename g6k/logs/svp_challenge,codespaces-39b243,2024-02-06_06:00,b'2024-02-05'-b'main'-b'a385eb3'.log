@@ -1,0 +1,10 @@
+ INFO:        asvp:2024/02/06 06:06:05 UTC: sol 100, (139, -149, 444, -63, 397, 34, 409, -264, 186, -338, -211, -160, -334, -1, 76, 83, 70, 10, -62, -9, 220, -707, 238, -54, -250, -92, -470, 210, -62, -255, -113, -186, -150, -294, -180, 252, 99, -231, -81, 350, -336, -159, -8, -81, -98, -234, -401, -91, -656, -306, -147, 77, 663, -574, -24, -61, 45, -144, -380, -212, -209, -2, 27, 48, -231, 395, -329, -444, -84, -469, -174, -149, 590, -98, -252, -340, 62, 30, 169, 220, -91, -270, 353, 73, 290, 215, 176, 276, 224, -423, 224, -5, 137, -318, 357, 365, 255, -60, 52, -22)
+ INFO:        asvp:2024/02/06 06:07:06 UTC: norm 2646.2 ,hf 1.04202
+DEBUG:        root:2024/02/06 06:08:59 UTC: {"('svp-challenge', 100)": {"cputime":  256.810,  "walltime":  300.400,  "r_0":   2^22.7,  "r_0/gh": 1.085797,  "rhf": 1.009581,  "/": -0.05385,  "hv/hv": 1.998774,  "r": '...',  "flast":       21}}
+ INFO:        root:2024/02/06 06:09:17 UTC: 'threads': 4,                                      :: n: 100, cputime 256.8102s, walltime: 300.3996s, flast: 21.00, |db|: 2^17.66
+DEBUG:  matplotlib:2024/02/06 06:09:23 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/06 06:09:23 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/06 06:09:23 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/06 06:09:23 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/06 06:09:23 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/06 06:09:23 UTC: Using fontManager instance from /home/codespace/.cache/matplotlib/fontlist-v330.json

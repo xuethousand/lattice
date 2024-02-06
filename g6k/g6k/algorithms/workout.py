@@ -34,7 +34,7 @@ from six.moves import range
 def workout(g6k, tracer, kappa, blocksize, dim4free_min=0,              # Main parameters
             dim4free_dec=1, start_n=40, goal_r0=0.,                     # Loop control
             verbose=False, save_prefix=None, pump_params=None           # Misc
-            ):
+            ): 
     """
     :param g6k: The g6k object to work with
     :param tracer: A tracer for g6k
