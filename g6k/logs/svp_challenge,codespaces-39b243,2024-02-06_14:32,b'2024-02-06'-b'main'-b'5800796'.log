@@ -1,0 +1,13 @@
+ INFO:        asvp:2024/02/06 14:34:03 UTC: sol 70, (-196, -448, -201, 113, -515, 216, -40, -47, 72, -145, 191, -80, 479, 391, -55, -261, 61, -160, -69, -90, 67, 465, 51, -75, -10, 388, 379, 753, 224, -334, -18, -149, -188, -374, 105, -252, 708, 88, 365, -232, -307, 32, -145, -66, -60, -356, -190, 61, -161, -377, 98, -139, 311, -169, 302, -68, -6, -69, 294, -199, 227, 225, -95, -256, -44, -54, -186, 134, -91, -340)
+ INFO:        asvp:2024/02/06 14:34:03 UTC: norm(|sv|) 2142.6 ,hf(appro_factor) 0.99847
+DEBUG:        root:2024/02/06 14:34:03 UTC: {"('svp-challenge', 70)": {"cputime":  115.178,  "walltime":  117.049,  "r_0":   2^22.1,  "r_0/gh": 0.996934,  "rhf": 1.010661,  "/": -0.05718,  "hv/hv": 1.685081,  "r": '...',  "flast":        0}}
+ INFO:        asvp:2024/02/06 14:36:03 UTC: sol 70, (-76, -314, 68, -94, 118, 57, 299, -287, -421, 145, -68, -266, -163, 364, -71, 128, 434, 77, -336, -231, 29, -375, -140, -163, 101, 486, -418, -118, -14, -210, -156, 27, -89, -14, 70, -88, -212, 130, 289, 210, -491, 296, -352, -41, 461, 294, -15, 160, 84, -53, -92, -354, -18, 258, -122, -208, 73, -269, 638, -118, -684, -566, -61, -71, -254, 282, -336, 143, -132, 0)
+ INFO:        asvp:2024/02/06 14:36:03 UTC: norm(|sv|) 2159.1 ,hf(appro_factor) 1.00925
+DEBUG:        root:2024/02/06 14:36:03 UTC: {"('svp-challenge', 70)": {"cputime":  117.614,  "walltime":  119.344,  "r_0":   2^22.2,  "r_0/gh": 1.018586,  "rhf": 1.010816,  "/": -0.05717,  "hv/hv": 1.653389,  "r": '...',  "flast":        0}}
+ INFO:        root:2024/02/06 14:36:03 UTC:                                                    :: n: 70, cputime 116.3959s, walltime: 118.1963s, flast: 0.00, |db|: 2^16.20
+DEBUG:  matplotlib:2024/02/06 14:36:03 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/06 14:36:03 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/06 14:36:03 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/06 14:36:03 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/06 14:36:03 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/06 14:36:03 UTC: Using fontManager instance from /home/codespace/.cache/matplotlib/fontlist-v330.json

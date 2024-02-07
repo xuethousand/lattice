@@ -187,3 +187,18 @@ challenge_seed = 0
 workout__dim4free_dec=3
 
 ```
+
+
+to do：
+* SieverParams中各个参数的含义
+* workout可以进一步优化吗
+* summer的pro-pnj-bkz算法, g6k的GPU版本
+* 更好的服务器？
+
+
+
+ 
+
+
+
+

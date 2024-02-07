@@ -1,0 +1,12 @@
+DEBUG:  matplotlib:2024/02/06 13:48:02 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/06 13:48:02 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/06 13:48:02 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/06 13:48:02 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/06 13:48:02 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/06 13:48:02 UTC: Using fontManager instance from /home/codespace/.cache/matplotlib/fontlist-v330.json
+DEBUG:  matplotlib:2024/02/06 13:48:15 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/06 13:48:15 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/06 13:48:15 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/06 13:48:15 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/06 13:48:15 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/06 13:48:15 UTC: Using fontManager instance from /home/codespace/.cache/matplotlib/fontlist-v330.json

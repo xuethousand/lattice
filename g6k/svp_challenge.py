@@ -74,12 +74,14 @@ def asvp_kernel(arg0, params=None, seed=None): #arg
         if verbose:
             print(("Loaded file '%s'" % load_matrix))
 
+    #test
+    #print(params.dict())
     g6k = Siever(A, params, seed=seed)
     tracer = SieveTreeTracer(g6k, root_label=("svp-challenge", n), start_clocks=True)
 
     gh = gaussian_heuristic([g6k.M.get_r(i, i) for i in range(n)])
-    goal_r0 = (1.05 ** 2) * gh
-    #goal_r0 = (0.95 ** 2) * gh
+    #goal_r0 = (1.05 ** 2) * gh
+    goal_r0 = (1.00 ** 2) * gh
     if verbose:
         print(
             (
@@ -87,6 +89,11 @@ def asvp_kernel(arg0, params=None, seed=None): #arg
                 % (gh, goal_r0 / gh, sum([x * x for x in A[0]]) / gh)
             )
         )
+
+    #test
+    # print(pump_params)
+    # print('/n')
+    # print(workout_params)
 
     flast = workout(
         g6k, tracer, 0, n, goal_r0=goal_r0, pump_params=pump_params, **workout_params
@@ -96,8 +103,9 @@ def asvp_kernel(arg0, params=None, seed=None): #arg
     stat = tracer.trace
     stat.data["flast"] = flast
 
-    if verbose:
-        logger.info("sol %d, %s" % (n, A[0])) #sol,打印asvp:...
+    # if verbose:
+    #     logger.info("sol %d, %s" % (n, A[0])) #sol,打印asvp:...
+    logger.info("sol %d, %s" % (n, A[0])) #sol,打印asvp:...
 
     norm = sum([x * x for x in A[0]])
     if verbose:
@@ -117,7 +125,7 @@ def asvp():
         description,
         load_matrix=None,
         verbose=True,
-        challenge_seed=0,
+        #challenge_seed=0, 
         workout__dim4free_dec=3,
     )
 
@@ -155,6 +163,7 @@ def asvp():
                 "wb",
             ),
         )
+    
 
 
 if __name__ == "__main__":

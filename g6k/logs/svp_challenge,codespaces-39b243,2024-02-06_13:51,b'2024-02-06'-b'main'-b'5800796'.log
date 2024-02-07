@@ -1,0 +1,16 @@
+DEBUG:  matplotlib:2024/02/06 13:51:26 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/06 13:51:26 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/06 13:51:26 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/06 13:51:26 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/06 13:51:26 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/06 13:51:26 UTC: Using fontManager instance from /home/codespace/.cache/matplotlib/fontlist-v330.json
+ INFO:        asvp:2024/02/06 13:51:34 UTC: sol 70, (-532, 235, -266, 182, 150, 24, -496, -77, -123, 369, -226, -43, -302, 146, -54, -204, -50, -293, 344, 124, -166, 210, 527, -210, 368, -193, -123, 126, 20, -6, -451, 141, 194, 122, -58, -14, -450, 222, -78, -301, 56, 409, 490, 34, -126, 445, 68, -530, -247, -212, -21, 38, -19, 92, -614, -256, 78, 21, -378, 21, -41, 79, 206, 276, -495, -194, 200, 283, -409, -392)
+ INFO:        asvp:2024/02/06 13:51:34 UTC: norm(|sv|) 2235.2 ,hf(appro_factor) 1.04163
+DEBUG:        root:2024/02/06 13:51:34 UTC: {"('svp-challenge', 70)": {"cputime": 1.408691,  "walltime": 1.458582,  "r_0":   2^22.3,  "r_0/gh": 1.085001,  "rhf": 1.011272,  "/": -0.06028,  "hv/hv": 1.722956,  "r": '...',  "flast":       15}}
+ INFO:        root:2024/02/06 13:51:34 UTC:                                                    :: n: 70, cputime  1.4087s, walltime:  1.4586s, flast: 15.00, |db|: 2^12.47
+DEBUG:  matplotlib:2024/02/06 13:51:34 UTC: matplotlib data path: /workspaces/lattice/g6k/g6k-env/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:  matplotlib:2024/02/06 13:51:34 UTC: CONFIGDIR=/home/codespace/.config/matplotlib
+DEBUG:  matplotlib:2024/02/06 13:51:34 UTC: interactive is False
+DEBUG:  matplotlib:2024/02/06 13:51:34 UTC: platform is linux
+DEBUG:  matplotlib:2024/02/06 13:51:34 UTC: CACHEDIR=/home/codespace/.cache/matplotlib
+DEBUG:matplotlib.font_manager:2024/02/06 13:51:34 UTC: Using fontManager instance from /home/codespace/.cache/matplotlib/fontlist-v330.json
