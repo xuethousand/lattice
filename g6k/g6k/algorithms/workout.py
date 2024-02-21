@@ -61,7 +61,7 @@ def workout(g6k, tracer, kappa, blocksize, dim4free_min=0,              # Main p
 
     if goal_r0:
         #fs += 9999*[dim4free_min] #若goal_r0不为0，则一直循环最后一个pump
-        fs += 10*[dim4free_min] 
+        fs += 3*[dim4free_min] 
 
     gh = gaussian_heuristic([g6k.M.get_r(i, i) for i in range(kappa, kappa+blocksize)])
     runtimestart = time.time()
