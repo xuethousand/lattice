@@ -7,8 +7,8 @@ from statsmodels.distributions.empirical_distribution import ECDF #pip install s
 
 
 
-dim = 67
-goal_appro_factor = 0.89846
+dim = 66
+goal_appro_factor = 0.89299
 plot = False
 
 
@@ -17,8 +17,9 @@ def generate_vector(filename):
     with open(filename, 'r') as file:
         for line in file:
             if 'appro_factor' in line:
-                _1, _2, _3, value = line.split()
-                factors.append(float(value))
+                _1, _2, _3, value, _5, _6, _7, _8, _9, _10, _11, _12 = line.split()
+                value = float(value.strip(','))  # 去掉末尾的逗号并转换为浮点数
+                factors.append(value)
     return np.array(factors)
 
 v = generate_vector(f'log_{dim}.txt')

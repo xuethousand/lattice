@@ -43,7 +43,7 @@ def usvp():
 
     verbose = True
     trial = 0
-    trial_n = 100 #实验次数,python trial_expect.py确定
+    trial_n = 700 #实验次数,python trial_expect.py确定
     if test:
         trial_n = 1
 

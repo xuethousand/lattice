@@ -2,7 +2,7 @@ import re
 import pandas as pd #pip install openpyxl
 
 
-dim = 67
+dim = 66
 
 # 读取日志文件
 with open(f'log_{dim}.txt', 'r') as file:
