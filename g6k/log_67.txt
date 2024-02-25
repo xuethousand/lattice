@@ -213,3 +213,11 @@ INFO:root:trial 54, sol 67 dim, 43650 seed, (165, 29, 326, -438, -391, -36, 9, -
 INFO:root:norm(|sv|) 2144.1, appro_factor 1.01915, 2*log(det) 928.37017, cpu time 23.4, wall time 14.6
 INFO:root:/n
 INFO:root:Did not find 'svpchallenge/svpchallenge-dim-067-seed-48652.txt', generating ...
+INFO:root:trial 55, sol 67 dim, 48652 seed, (58, -70, 111, -471, 486, 159, 23, 150, 59, 65, -204, 109, -134, 180, -38, -61, -71, -351, -387, 14, -631, -282, -205, -619, -283, 29, 52, 291, 439, 139, -132, -251, -368, 199, 138, 25, -401, 293, 305, 794, 262, -192, 72, 301, 236, -139, -196, -159, -144, 35, 504, -209, 138, -181, 174, 104, -154, -27, 191, -40, 64, -56, 70, 352, 193, -326, 16)
+INFO:root:norm(|sv|) 2132.0, appro_factor 1.01345, 2*log(det) 928.36056, cpu time 23.3, wall time 15.0
+INFO:root:/n
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-067-seed-10229.txt', generating ...
+INFO:root:trial 56, sol 67 dim, 10229 seed, (141, 58, -297, -28, 173, 727, 250, 156, -440, -303, -282, 42, -114, 511, -58, -232, -425, 735, -58, 102, 85, -175, 167, -74, 32, -222, -388, 201, -479, 293, 25, 249, -231, -61, -83, 406, -155, -197, -95, -213, 13, -237, 200, -17, -116, -272, -108, -167, -196, -362, -16, 15, 94, -113, -95, 253, -114, 178, 537, -279, 59, 80, -8, -65, 320, 377, -339)
+INFO:root:norm(|sv|) 2121.2, appro_factor 1.01038, 2*log(det) 928.08700, cpu time 22.4, wall time 14.5
+INFO:root:/n
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-067-seed-3920.txt', generating ...
