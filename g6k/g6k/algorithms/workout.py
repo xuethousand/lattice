@@ -29,6 +29,7 @@ from .pump import pump
 from fpylll.util import gaussian_heuristic
 import time
 from six.moves import range
+import logging
 
 
 def workout(g6k, tracer, kappa, blocksize, dim4free_min=0,              # Main parameters
@@ -83,6 +84,70 @@ def workout(g6k, tracer, kappa, blocksize, dim4free_min=0,              # Main p
                 print("T:%10.5fs, TT:%10.5fs, quality:%10.5f (r0/gh)**2:%10.5f" %
                       (time.time() - timestart,
                        time.time() - runtimestart, quality, g6k.M.get_r(kappa, kappa) / gh))
+
+            if g6k.M.get_r(kappa, kappa) < goal_r0:
+                break
+
+            if save_prefix is not None: #保存g6k.M.B,实时格基
+                fn = open("%s_%d_%d.mat" % (save_prefix.rstrip(), g6k.M.d - f, g6k.M.d), "w")
+                fn.write(str(g6k.M.B))
+                fn.close()
+
+    return flast
+
+#####################
+
+def workout_modified(g6k, tracer, kappa, blocksize, dim4free_min=0, pump_n=1,  logfile = 'logging_pump.txt' ,         # Main parameters
+            dim4free_dec=1, start_n=40, goal_r0=0.,                     # Loop control
+            verbose=False, save_prefix=None, pump_params=None           # Misc
+            ): 
+    """
+    :param pump_n: 运行多少个pump
+    :param logfile: 将中间数据保存在logfile文件中
+    """
+    if pump_params is None:
+        pump_params = {}
+
+    f_start = max(blocksize - start_n, 0, dim4free_min)
+    fs = list(range(dim4free_min, f_start+1, dim4free_dec))[::-1]
+
+    # 如果fs的长度大于pump_n，去掉末尾的数
+    if len(fs) > pump_n:
+        fs = fs[:pump_n]
+    # 如果fs的长度小于pump_n， 在末尾增加0
+    elif len(fs) < pump_n:
+        fs.extend([0] * (pump_n - len(fs)))
+        
+
+    gh = gaussian_heuristic([g6k.M.get_r(i, i) for i in range(kappa, kappa+blocksize)])
+    runtimestart = time.process_time()
+
+    if "verbose" not in pump_params:
+        pump_params["verbose"] = verbose #若pump_params中没有verbose，默认为false
+
+    with tracer.context(("workout", "beta:%d f:%d" % (blocksize, dim4free_min))):
+        logging.basicConfig(filename=logfile, filemode = 'a', level=logging.INFO)
+        _ = 0
+        for f in fs:
+            _= _+1
+            flast = f
+            timestart = time.process_time()
+
+            sys.stdout.flush()
+            pump(g6k, tracer, kappa, blocksize, f, goal_r0=goal_r0, **pump_params)
+
+            if verbose:
+                gh2 = gaussian_heuristic([g6k.M.get_r(i, i) for i in range(kappa+f, kappa+blocksize)])
+                quality = (gh * (blocksize - f)) / (gh2 * blocksize) 
+                T = time.process_time() - timestart #cpu time
+                TT = time.process_time() - runtimestart #cpu time
+                appro_factor= (g6k.M.get_r(kappa, kappa) / gh)**(1/2)
+                print("T(cpu):%10.5fs, TT(cpu):%10.5fs, r0/gh:%10.5f" %
+                      (T,
+                       TT, appro_factor))
+                logging.info("pump:%d, dim:%d, f:%d, T(单个pump):%10.5fs, TT(截止所有pump):%10.5fs, quality:%10.5f, (r0/gh):%10.5f" % (_,blocksize,f,T,TT,quality, appro_factor))
+
+
 
             if g6k.M.get_r(kappa, kappa) < goal_r0:
                 break

@@ -204,7 +204,7 @@ INFO:root:
 
 
 
-
+dim 47, seed 73124, 特殊情况
 
 
 

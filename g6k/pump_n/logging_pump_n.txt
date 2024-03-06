@@ -1,0 +1,181 @@
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-61432.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.07388s, TT(截止所有pump):   0.07397s, quality:   1.00000, (r0/gh):   0.94068
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05627s, TT(截止所有pump):   0.13042s, quality:   1.00000, (r0/gh):   0.94068
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05955s, TT(截止所有pump):   0.19016s, quality:   1.00000, (r0/gh):   0.94068
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05754s, TT(截止所有pump):   0.24786s, quality:   1.00000, (r0/gh):   0.94068
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-38368.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05206s, TT(截止所有pump):   0.05211s, quality:   1.00000, (r0/gh):   1.01423
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.06136s, TT(截止所有pump):   0.11364s, quality:   1.00000, (r0/gh):   1.01423
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.06553s, TT(截止所有pump):   0.17934s, quality:   1.00000, (r0/gh):   1.01423
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06957s, TT(截止所有pump):   0.24910s, quality:   1.00000, (r0/gh):   1.01423
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-64158.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.07131s, TT(截止所有pump):   0.07137s, quality:   1.00000, (r0/gh):   1.03473
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05522s, TT(截止所有pump):   0.12682s, quality:   1.00000, (r0/gh):   1.03473
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05988s, TT(截止所有pump):   0.18689s, quality:   1.00000, (r0/gh):   1.03473
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06295s, TT(截止所有pump):   0.25001s, quality:   1.00000, (r0/gh):   1.03473
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-21.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.06108s, TT(截止所有pump):   0.06116s, quality:   1.00000, (r0/gh):   0.96749
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.04964s, TT(截止所有pump):   0.11097s, quality:   1.00000, (r0/gh):   0.96749
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05333s, TT(截止所有pump):   0.16449s, quality:   1.00000, (r0/gh):   0.96749
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06321s, TT(截止所有pump):   0.22790s, quality:   1.00000, (r0/gh):   0.96749
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-83852.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05093s, TT(截止所有pump):   0.05098s, quality:   1.00000, (r0/gh):   0.99296
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.06829s, TT(截止所有pump):   0.11945s, quality:   1.00000, (r0/gh):   0.99296
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.07292s, TT(截止所有pump):   0.19257s, quality:   1.00000, (r0/gh):   0.99296
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.07175s, TT(截止所有pump):   0.26450s, quality:   1.00000, (r0/gh):   0.99296
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-24149.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05228s, TT(截止所有pump):   0.05234s, quality:   1.00000, (r0/gh):   1.00319
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05332s, TT(截止所有pump):   0.10582s, quality:   1.00000, (r0/gh):   1.00319
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05581s, TT(截止所有pump):   0.16182s, quality:   1.00000, (r0/gh):   1.00319
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05848s, TT(截止所有pump):   0.22053s, quality:   1.00000, (r0/gh):   1.00319
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-33630.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05958s, TT(截止所有pump):   0.05964s, quality:   1.00000, (r0/gh):   0.96157
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05183s, TT(截止所有pump):   0.11169s, quality:   1.00000, (r0/gh):   0.96157
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05541s, TT(截止所有pump):   0.16727s, quality:   1.00000, (r0/gh):   0.96157
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05466s, TT(截止所有pump):   0.22213s, quality:   1.00000, (r0/gh):   0.96157
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-91313.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05750s, TT(截止所有pump):   0.05756s, quality:   1.00000, (r0/gh):   1.02226
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05908s, TT(截止所有pump):   0.11682s, quality:   1.00000, (r0/gh):   1.02226
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05888s, TT(截止所有pump):   0.17588s, quality:   1.00000, (r0/gh):   1.02226
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05780s, TT(截止所有pump):   0.23387s, quality:   1.00000, (r0/gh):   1.02226
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-27854.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05801s, TT(截止所有pump):   0.05818s, quality:   1.00000, (r0/gh):   1.00987
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05937s, TT(截止所有pump):   0.11773s, quality:   1.00000, (r0/gh):   1.00987
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.06864s, TT(截止所有pump):   0.18656s, quality:   1.00000, (r0/gh):   1.00987
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.07031s, TT(截止所有pump):   0.25708s, quality:   1.00000, (r0/gh):   1.00987
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-37537.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05162s, TT(截止所有pump):   0.05167s, quality:   1.00000, (r0/gh):   0.99874
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05650s, TT(截止所有pump):   0.10833s, quality:   1.00000, (r0/gh):   0.99874
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.06185s, TT(截止所有pump):   0.17036s, quality:   1.00000, (r0/gh):   0.99874
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06676s, TT(截止所有pump):   0.23729s, quality:   1.00000, (r0/gh):   0.99874
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-57565.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.06075s, TT(截止所有pump):   0.06082s, quality:   1.00000, (r0/gh):   1.00431
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05407s, TT(截止所有pump):   0.11505s, quality:   1.00000, (r0/gh):   1.00431
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05700s, TT(截止所有pump):   0.17222s, quality:   1.00000, (r0/gh):   1.00431
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06034s, TT(截止所有pump):   0.23276s, quality:   1.00000, (r0/gh):   1.00431
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-56326.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05334s, TT(截止所有pump):   0.05338s, quality:   1.00000, (r0/gh):   0.99431
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05752s, TT(截止所有pump):   0.11108s, quality:   1.00000, (r0/gh):   0.99431
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05953s, TT(截止所有pump):   0.17078s, quality:   1.00000, (r0/gh):   0.99431
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05642s, TT(截止所有pump):   0.22737s, quality:   1.00000, (r0/gh):   0.99431
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-27479.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05701s, TT(截止所有pump):   0.05706s, quality:   1.00000, (r0/gh):   1.01881
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.06053s, TT(截止所有pump):   0.11777s, quality:   1.00000, (r0/gh):   1.01881
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05864s, TT(截止所有pump):   0.17663s, quality:   1.00000, (r0/gh):   1.01881
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05725s, TT(截止所有pump):   0.23406s, quality:   1.00000, (r0/gh):   1.01881
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-8686.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.04856s, TT(截止所有pump):   0.04861s, quality:   1.00000, (r0/gh):   1.01820
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05804s, TT(截止所有pump):   0.10684s, quality:   1.00000, (r0/gh):   1.01820
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05971s, TT(截止所有pump):   0.16674s, quality:   1.00000, (r0/gh):   1.01820
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06131s, TT(截止所有pump):   0.22822s, quality:   1.00000, (r0/gh):   1.01820
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-54597.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05531s, TT(截止所有pump):   0.05535s, quality:   1.00000, (r0/gh):   0.99982
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05848s, TT(截止所有pump):   0.11401s, quality:   1.00000, (r0/gh):   0.99982
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05559s, TT(截止所有pump):   0.16976s, quality:   1.00000, (r0/gh):   0.99982
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05929s, TT(截止所有pump):   0.22924s, quality:   1.00000, (r0/gh):   0.99982
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-9676.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05300s, TT(截止所有pump):   0.05304s, quality:   1.00000, (r0/gh):   0.96314
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05484s, TT(截止所有pump):   0.10805s, quality:   1.00000, (r0/gh):   0.96314
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.06354s, TT(截止所有pump):   0.17175s, quality:   1.00000, (r0/gh):   0.96314
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06506s, TT(截止所有pump):   0.23700s, quality:   1.00000, (r0/gh):   0.96314
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-78116.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05942s, TT(截止所有pump):   0.05946s, quality:   1.00000, (r0/gh):   1.02573
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05652s, TT(截止所有pump):   0.11615s, quality:   1.00000, (r0/gh):   1.02573
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05325s, TT(截止所有pump):   0.16954s, quality:   1.00000, (r0/gh):   1.02573
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06099s, TT(截止所有pump):   0.23069s, quality:   1.00000, (r0/gh):   1.02573
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-79091.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05705s, TT(截止所有pump):   0.05711s, quality:   1.00000, (r0/gh):   0.98514
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05540s, TT(截止所有pump):   0.11267s, quality:   1.00000, (r0/gh):   0.98514
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.06020s, TT(截止所有pump):   0.17301s, quality:   1.00000, (r0/gh):   0.98514
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06496s, TT(截止所有pump):   0.23811s, quality:   1.00000, (r0/gh):   0.98514
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-27348.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05761s, TT(截止所有pump):   0.05767s, quality:   1.00000, (r0/gh):   1.01812
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.04947s, TT(截止所有pump):   0.10730s, quality:   1.00000, (r0/gh):   1.01812
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05589s, TT(截止所有pump):   0.16336s, quality:   1.00000, (r0/gh):   1.01812
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05261s, TT(截止所有pump):   0.21613s, quality:   1.00000, (r0/gh):   1.01812
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-37326.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05829s, TT(截止所有pump):   0.05834s, quality:   1.00000, (r0/gh):   0.99966
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05496s, TT(截止所有pump):   0.11348s, quality:   1.00000, (r0/gh):   0.99966
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.06417s, TT(截止所有pump):   0.17782s, quality:   1.00000, (r0/gh):   0.99966
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.07769s, TT(截止所有pump):   0.25572s, quality:   1.00000, (r0/gh):   0.99966
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-35036.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05532s, TT(截止所有pump):   0.05537s, quality:   1.00000, (r0/gh):   1.02880
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.06195s, TT(截止所有pump):   0.11750s, quality:   1.00000, (r0/gh):   1.02880
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05731s, TT(截止所有pump):   0.17498s, quality:   1.00000, (r0/gh):   1.02880
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05648s, TT(截止所有pump):   0.23165s, quality:   1.00000, (r0/gh):   1.02880
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-41060.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05015s, TT(截止所有pump):   0.05020s, quality:   1.00000, (r0/gh):   0.95442
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05336s, TT(截止所有pump):   0.10373s, quality:   1.00000, (r0/gh):   0.95442
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05687s, TT(截止所有pump):   0.16077s, quality:   1.00000, (r0/gh):   0.95442
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05501s, TT(截止所有pump):   0.21597s, quality:   1.00000, (r0/gh):   0.95442
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-73109.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05247s, TT(截止所有pump):   0.05252s, quality:   1.00000, (r0/gh):   1.01438
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.04912s, TT(截止所有pump):   0.10183s, quality:   1.00000, (r0/gh):   1.01438
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05557s, TT(截止所有pump):   0.15758s, quality:   1.00000, (r0/gh):   1.01438
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05773s, TT(截止所有pump):   0.21545s, quality:   1.00000, (r0/gh):   1.01438
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-14779.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05894s, TT(截止所有pump):   0.05898s, quality:   1.00000, (r0/gh):   0.99960
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05875s, TT(截止所有pump):   0.11790s, quality:   1.00000, (r0/gh):   0.99960
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.06200s, TT(截止所有pump):   0.18007s, quality:   1.00000, (r0/gh):   0.99960
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05694s, TT(截止所有pump):   0.23718s, quality:   1.00000, (r0/gh):   0.99960
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-70540.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05274s, TT(截止所有pump):   0.05279s, quality:   1.00000, (r0/gh):   0.99001
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05165s, TT(截止所有pump):   0.10462s, quality:   1.00000, (r0/gh):   0.99001
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05250s, TT(截止所有pump):   0.15726s, quality:   1.00000, (r0/gh):   0.99001
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05383s, TT(截止所有pump):   0.21122s, quality:   1.00000, (r0/gh):   0.99001
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-81929.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.06287s, TT(截止所有pump):   0.06291s, quality:   1.00000, (r0/gh):   0.99259
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05818s, TT(截止所有pump):   0.12125s, quality:   1.00000, (r0/gh):   0.99259
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05236s, TT(截止所有pump):   0.17375s, quality:   1.00000, (r0/gh):   0.99259
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06280s, TT(截止所有pump):   0.23670s, quality:   1.00000, (r0/gh):   0.99259
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-342.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05711s, TT(截止所有pump):   0.05715s, quality:   1.00000, (r0/gh):   1.05653
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05721s, TT(截止所有pump):   0.11451s, quality:   1.00000, (r0/gh):   1.05653
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05772s, TT(截止所有pump):   0.17240s, quality:   1.00000, (r0/gh):   1.05653
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06065s, TT(截止所有pump):   0.23322s, quality:   1.00000, (r0/gh):   1.05653
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-25797.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05391s, TT(截止所有pump):   0.05398s, quality:   1.00000, (r0/gh):   1.04197
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05586s, TT(截止所有pump):   0.11000s, quality:   1.00000, (r0/gh):   1.04197
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05386s, TT(截止所有pump):   0.16400s, quality:   1.00000, (r0/gh):   1.04197
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05662s, TT(截止所有pump):   0.22075s, quality:   1.00000, (r0/gh):   1.04197
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-41969.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05454s, TT(截止所有pump):   0.05459s, quality:   1.00000, (r0/gh):   1.01465
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.06460s, TT(截止所有pump):   0.11938s, quality:   1.00000, (r0/gh):   1.01465
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.06167s, TT(截止所有pump):   0.18124s, quality:   1.00000, (r0/gh):   1.01465
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05523s, TT(截止所有pump):   0.23663s, quality:   1.00000, (r0/gh):   1.01465
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-96154.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.05109s, TT(截止所有pump):   0.05131s, quality:   1.00000, (r0/gh):   1.01922
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.05501s, TT(截止所有pump):   0.10651s, quality:   1.00000, (r0/gh):   1.01922
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05218s, TT(截止所有pump):   0.15883s, quality:   1.00000, (r0/gh):   1.01922
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.05689s, TT(截止所有pump):   0.21588s, quality:   1.00000, (r0/gh):   1.01922
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-70814.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.07391s, TT(截止所有pump):   0.07398s, quality:   1.00000, (r0/gh):   1.03315
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.07109s, TT(截止所有pump):   0.14525s, quality:   1.00000, (r0/gh):   1.03315
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.07106s, TT(截止所有pump):   0.21648s, quality:   1.00000, (r0/gh):   1.03315
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.07022s, TT(截止所有pump):   0.28688s, quality:   1.00000, (r0/gh):   1.03315
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-80916.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.07724s, TT(截止所有pump):   0.07730s, quality:   1.00000, (r0/gh):   0.98893
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.07468s, TT(截止所有pump):   0.15219s, quality:   1.00000, (r0/gh):   0.98893
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.07262s, TT(截止所有pump):   0.22500s, quality:   1.00000, (r0/gh):   0.98893
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.07799s, TT(截止所有pump):   0.30319s, quality:   1.00000, (r0/gh):   0.98893
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-1811.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.07307s, TT(截止所有pump):   0.07313s, quality:   1.00000, (r0/gh):   1.03050
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.06930s, TT(截止所有pump):   0.14263s, quality:   1.00000, (r0/gh):   1.02133
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.07381s, TT(截止所有pump):   0.21664s, quality:   1.00000, (r0/gh):   1.02133
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.07023s, TT(截止所有pump):   0.28709s, quality:   1.00000, (r0/gh):   1.02133
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-98023.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.06812s, TT(截止所有pump):   0.06819s, quality:   1.00000, (r0/gh):   0.99884
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.07198s, TT(截止所有pump):   0.14038s, quality:   1.00000, (r0/gh):   0.99884
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.06988s, TT(截止所有pump):   0.21046s, quality:   1.00000, (r0/gh):   0.99884
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.07002s, TT(截止所有pump):   0.28067s, quality:   1.00000, (r0/gh):   0.99884
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-43361.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.06040s, TT(截止所有pump):   0.06047s, quality:   1.00000, (r0/gh):   0.97870
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.06356s, TT(截止所有pump):   0.12421s, quality:   1.00000, (r0/gh):   0.97870
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.05804s, TT(截止所有pump):   0.18245s, quality:   1.00000, (r0/gh):   0.97870
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.06491s, TT(截止所有pump):   0.24753s, quality:   1.00000, (r0/gh):   0.97870
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-4629.txt', generating ...
+INFO:root:pump:1, dim:40, f:0, T(单个pump):   0.07222s, TT(截止所有pump):   0.07229s, quality:   1.00000, (r0/gh):   0.98893
+INFO:root:pump:2, dim:40, f:0, T(单个pump):   0.07267s, TT(截止所有pump):   0.14520s, quality:   1.00000, (r0/gh):   0.98893
+INFO:root:pump:3, dim:40, f:0, T(单个pump):   0.07882s, TT(截止所有pump):   0.22422s, quality:   1.00000, (r0/gh):   0.98893
+INFO:root:pump:4, dim:40, f:0, T(单个pump):   0.07945s, TT(截止所有pump):   0.30386s, quality:   1.00000, (r0/gh):   0.98893
+INFO:root:Did not find 'svpchallenge/svpchallenge-dim-040-seed-85114.txt', generating ...
