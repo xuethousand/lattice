@@ -40,10 +40,10 @@ def usvp():
     verbose = True
     test = False
 
-    for dim in range(40,65,5):
-        pump_n = (dim - 40)//2+1+3
+    for dim in range(77,86,1):
+        pump_n = min((dim - 40)//2+1,13)
         trial = 0
-        trial_n = 100 #实验次数
+        trial_n = 60 #实验次数
         if test:
             trial_n = 1
 
@@ -90,11 +90,11 @@ def usvp():
 
 
 
-        ##########输出结果###
-        logging.info("trial %d, pump_n %d, sol %d dim, %d seed, %s" % (trial, pump_n, dim, seed, A[0])) #sol,打印sv:...
-        norm = sum([x * x for x in A[0]])
-        logging.info("norm(|sv|) %.1f, appro_factor %.5f, 2*log(det) %.5f, cpu time %.1f, wall time %.1f" % (norm ** 0.5, (norm / gh) ** 0.5, det, cpu_time, wall_time))
-        logging.info("/n")
+            ##########输出结果###
+            logging.info("trial %d, pump_n %d, sol %d dim, %d seed, %s" % (trial, pump_n, dim, seed, A[0])) #sol,打印sv:...
+            norm = sum([x * x for x in A[0]])
+            logging.info("norm(|sv|) %.1f, appro_factor %.5f, 2*log(det) %.5f, cpu time %.1f, wall time %.1f" % (norm ** 0.5, (norm / gh) ** 0.5, det, cpu_time, wall_time))
+            logging.info("/n")
 
 
 

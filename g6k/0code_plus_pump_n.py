@@ -34,10 +34,10 @@ def usvp():
     """
     svp challenge slover
     """
-    dim = 60
-    goal_appro_factor = 0.879360   #避免goal_appro_factor达到goal、norm未达到，就在workout阶段终止的情况，所以这里设置很小的值
-    goal_norm = 1743**2  #目标长度控制终止程序
-    pump_n = (dim - 40)//2+1+3
+    dim = 84
+    goal_appro_factor = 0.922170     #避免goal_appro_factor达到goal、norm未达到，就在workout阶段终止的情况，所以这里设置很小的值
+    goal_norm = 2158**2  #目标长度控制终止程序
+    pump_n = 15  #(dim - 40)//2+1+3
     test = False
     control_by_norm = True
     logging.basicConfig(filename=f'pump_n/log_{dim}_pump_{pump_n}.txt', filemode = 'a', level=logging.INFO)

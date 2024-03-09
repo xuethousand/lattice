@@ -23,7 +23,7 @@ def generate_vector(filename):
                 if(value < 1.1):
                     factors.append(value) #有时会出现approx factor极大的情况，见dim47，seed73124，这是算法有误
                 count += 1
-                if count == 1500000: #调整count，选择读取多少数据
+                if count == 500: #调整count，选择读取多少数据
                     break
     return np.array(factors)
 
@@ -35,6 +35,8 @@ v = generate_vector(f'log_{dim}.txt')
 # 计算偏度
 skewness = stats.skew(v)
 print(f'偏度: {skewness}')
+print(f'均值: {np.mean(v)}')
+print(f'标准差: {np.std(v)}')
 
 # 如果偏度小于0，则数据为左偏分布
 if skewness < 0:

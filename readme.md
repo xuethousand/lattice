@@ -189,11 +189,7 @@ workout__dim4free_dec=3
 ```
 
 
-to do：
-* SieverParams中各个参数的含义
-* workout可以进一步优化吗
-* summer的pro-pnj-bkz算法, g6k的GPU版本
-* 更好的服务器？
+
 
 
 
@@ -207,5 +203,12 @@ INFO:root:
 dim 47, seed 73124, 特殊情况
 
 
+# 文件说明
 
+0code.py: 原始解决SVP挑战
+0code_plus_pump_n.py: 解决SVP挑战 + pump_n
+0pump_n.py: 生成多个维数的随机格数据，将实验数据储存在pump_n文件夹中，用于分析模型
+0pump_n_data.py: 读取pump_n文件夹中的数据，导出为xlsx，方便下载用R分析作图
+0trial_expect.py: 输出预计实验次数
+0det_influence.py: 输出实验数据为xlsx，用于后续分析det对norm的影响，指出应该用approx factor而非norm来衡量向量的短性
 
